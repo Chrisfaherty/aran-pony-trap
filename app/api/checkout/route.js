@@ -21,7 +21,7 @@ export async function POST(req) {
             product_data: {
               name: 'Aran Pony & Trap Tour',
               description,
-              images: ['https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80'],
+              images: ['https://static.wixstatic.com/media/3cdf95_9c49533441ad432880f3dc158c928fc2~mv2.jpg/v1/fill/w_900,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/3cdf95_9c49533441ad432880f3dc158c928fc2~mv2.jpg'],
             },
             unit_amount: totalPrice * 100, // Stripe uses cents
           },

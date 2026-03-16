@@ -2,12 +2,7 @@
   "name": "aran-pony-trap",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint" },
   "dependencies": {
     "next": "14.2.5",
     "react": "^18",
@@ -17,8 +12,7 @@
     "resend": "^3.2.0",
     "react-day-picker": "^8.10.1",
     "date-fns": "^3.6.0",
-    "clsx": "^2.1.1",
-    "@vercel/kv": "^1.0.1"
+    "clsx": "^2.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
